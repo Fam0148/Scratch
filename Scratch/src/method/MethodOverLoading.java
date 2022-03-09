@@ -8,7 +8,7 @@ public class MethodOverLoading
 		applicationForm("Subash", 989898989, 1234512, 16);
 	}
 	
-	static void applicationForm(String name, int number, int age)
+	static void applicationForm(String name, int number, int age) //  method with 3 arguments
 	{
 		System.out.println("---- Method ----");
 		System.out.printf("The name is %s", name).println();
@@ -16,7 +16,7 @@ public class MethodOverLoading
 		System.out.printf("The Age is %d \n", age).println();
 		
 	}
-	static void applicationForm(String name, int number, int number2, int age)
+	static void applicationForm(String name, int number, int number2, int age) //  same method name with 4 arguments is called Overloading.
 	{
 		System.out.println("---- Method Overloading----");
 		System.out.printf("The name is %s", name).println();
