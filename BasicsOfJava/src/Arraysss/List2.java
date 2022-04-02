@@ -8,14 +8,14 @@ class Maxnumber
 {
 	int max()
 	{
-			int arr[] = {10, 324, 45, 90, 9808};
+			int array[] = {10, 324, 45, 90, 9808};
 	        int i;
 	        int max =0;
-	        for (i = 1; i < arr.length; i++)
+	        for (i = 1; i < array.length; i++)
 	        {
-	            if (arr[i] > max)
+	            if (array[i] > max)
 	            {
-	                max = arr[i];
+	                max = array[i];
 	            }
 	        }
 	        return max;
@@ -40,7 +40,6 @@ public class List2
 		      number.add(77);
 		      number.add(12);
 		      number.add(34);
-		      System.out.println(Collections.max(number));
-		      
+		      System.out.println(Collections.max(number));  
 		 }
 }
